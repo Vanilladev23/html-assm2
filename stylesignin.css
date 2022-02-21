@@ -1,0 +1,110 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline-offset: 5px;
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--saffron);
+  border-radius: 5px;
+}
+:-webkit-scrollbar-thumb:hover {
+  background: var(--space-cadet);
+}
+body::-webkit-scrollbar-track {
+  background: var(--cultured);
+  border-radius: 100rem;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f3f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.signin {
+  padding: 90px 75px;
+  background-color: #fff;
+  width: 85%;
+  max-width: 600px;
+  border-radius: 30px;
+}
+.signin-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #373941;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.signin-label {
+  font-size: 16px;
+  color: #373941;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.signin-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 14px;
+  background-color: #f2f3f5;
+  outline: none;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.signin-input::-webkit-input-placeholder {
+  color: #b4bac0;
+  font-weight: 500;
+}
+.signin-input:-moz-input-placeholder {
+  color: #b4bac0;
+  font-weight: 500;
+}
+.signin-submit {
+  padding: 25px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  display: inline-block;
+  width: 100%;
+  border-radius: 14px;
+  background-color: rgba(130, 201, 30);
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 5px 10px 0 rgba(130, 201, 30, 0.5);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.signin-already {
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.signin-login-link {
+  color: #2979ff;
+  text-decoration: none;
+}
