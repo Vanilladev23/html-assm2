@@ -21,6 +21,23 @@ html {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; /* Độ rộng là 100% khi viewport là 800px hoặc nhỏ hơn */
+  }
+}
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; /* Độ rộng là 100% khi viewport là 800px hoặc nhỏ hơn */
+  }
+}
 body::-webkit-scrollbar {
   width: 10px;
 }
