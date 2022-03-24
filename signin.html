@@ -4,29 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign in</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./stylesignin.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title></title>
   </head>
   <body>
-    <div class="signin">
-      <h1 class="signin-heading">Đăng nhập</h1>
-      <form action="#" class="signin-form" autocomplete="off">
-        <label for="fullname" class="signin-label">Full name</label>
-        <input
-          type="text"
-          id="fullname"
-          class="signin-input"
-          placeholder="Eg: John Doe"
-        />
-        <label for="password" class="signin-label">Password</label>
-        <input
-          type="password"
-          id="password"
-          class="signin-input"
-          placeholder="Eg: johndoe0666222888"
-        />
-        <button class="signin-submit">Đăng nhập</button>
+    <div id="wrapper">
+      <form action="" id="form-login">
+        <h1 class="form-heading">Đăng nhập</h1>
+        <div class="form-group">
+          <i class="far fa-user"></i>
+          <input type="text" class="form-input" placeholder="Tên đăng nhập" />
+        </div>
+        <div class="form-group">
+          <i class="fas fa-key"></i>
+          <input type="password" class="form-input" placeholder="Mật khẩu" />
+          <div id="eye">
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <input type="submit" value="Đăng nhập" class="form-submit" />
       </form>
     </div>
   </body>

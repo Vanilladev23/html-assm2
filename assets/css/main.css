@@ -950,6 +950,16 @@ i.home-product-item__like-icon-fill {
 }
 .home-product-item__brand {
   margin-right: auto;
+  height: 1.5rem;
+  width: 6rem;
+  font-size: 0.95rem;
+  padding-bottom: auto;
+  cursor: pointer;
+  margin-left: -7px;
+  margin-bottom: -15px;
+  border-radius: 4px;
+  color: var(--white-color);
+  background-color: #f63d30;
 }
 .home-product-item__favourite {
   position: absolute;

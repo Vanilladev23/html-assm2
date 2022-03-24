@@ -4,46 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signup</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./stylesignup.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title></title>
   </head>
   <body>
-    <div class="signup">
-      <h1 class="signup-heading">Đăng kí</h1>
-      <button class="signup-social">
-        <span class="signup-social-btn"></span>
-        <span class="signup-social-text">Đăng kí ElectronicShop</span>
-      </button>
-      <div class="signup-or"><span>Or</span></div>
-      <form action="#" class="signup-form" autocomplete="off">
-        <label for="fullname" class="signup-label">Full name</label>
-        <input
-          type="text"
-          id="fullname"
-          class="signup-input"
-          placeholder="Eg: John Doe"
-        />
-        <label for="email" class="signup-label">Email</label>
-        <input
-          type="email"
-          id="email"
-          class="signup-input"
-          placeholder="Eg: johndoe@example.com"
-        />
-        <label for="password" class="signup-label">Password</label>
-        <input
-          type="password"
-          id="password"
-          class="signup-input"
-          placeholder="Eg: johndoe0666222888"
-        />
-        <button class="signup-submit">Đăng kí</button>
+    <div id="wrapper">
+      <form action="" id="form-login">
+        <h1 class="form-heading">Đăng kí</h1>
+        <div class="form-group">
+          <!-- <i class="far fa-user"></i> -->
+          <input type="text" class="form-input" placeholder="Tên đăng kí" />
+        </div>
+        <div class="form-group">
+          <!-- <i class="fas fa-key"></i> -->
+          <input type="password" class="form-input" placeholder="Tạo mật khẩu" />
+          <div id="eye">
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <div class="form-group">
+          <!-- <i class="fas fa-key"></i> -->
+          <input type="password" class="form-input" placeholder="Nhập lại mật khẩu" />
+          <div id="eye">
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-input" placeholder="Số điện thoại" />
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-input" placeholder="Email" />
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-input" placeholder="Địa chỉ" />
+        </div>
+        <div class="form-group">
+          <input type="" class="form-input" placeholder="Giới Tính" />
+          <span class="btn__sex">Nam</span><input type="radio" class="form-input" name="Giới Tính" /> <span class="btn__sex">Nữ</span><input type="radio" class="form-input" name="Giới Tính" />
+        </div>
+        <input type="submit" value="Đăng kí" class="form-submit" />
       </form>
-      <p class="signup-already">
-        <span>Already have an account ?</span>
-        <a href="#" class="signup-login-link">login</a>
-      </p>
     </div>
   </body>
 </html>
